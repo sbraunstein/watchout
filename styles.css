@@ -6,16 +6,34 @@ Feel free to use it if you like. */
 body {
 	background-color: #333;
 }
-.scoreboard{
+/*.scoreboard{
 	position: absolute;
-	top: 51%;
-	left: 20%;
-	right: 20%;
-	background-color: #FFF;
-}
-svg {
+	color: red;
+}*/
+svg	 {
 	position: absolute;
     left: 20%;
     right: 20%;
     background-color: #b0e0e6;
+    border: solid 10px;
+}
+.score  {
+	position: absolute;
+	bottom: 15%;
+	width: 500px;
+    height: 200px;
+    border: 10px solid;
+    border-radius: 25px;	
+    margin-left: 25.5%;	
+    margin-right: auto;
+    background-color: white;
+}
+.score h1  {
+	color: green;
+	text-align: center;
+}
+.score div {
+	text-align: center;
+	vertical-align: text-top;
+	
 }
